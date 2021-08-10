@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.3.4.RELEASE</version>
+		<version>2.3.4.RELEASE</version><!-- 2.4.9 posibilita ver o arquivo local na resposta-->
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.henriquelavor</groupId>
@@ -15,7 +15,7 @@
 	<description>Config Server</description>
 	<properties>
 		<java.version>11</java.version>
-		<spring-cloud.version>2020.0.3</spring-cloud.version>
+		<spring-cloud.version>Hoxton.SR8</spring-cloud.version><!-- 2020.0.3  posibilita ver o arquivo local na resposta-->
 	</properties>
 	<dependencies>
 		<dependency>
